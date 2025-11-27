@@ -2,4 +2,4 @@ FROM docker.io/n8nio/n8n:latest
 
 EXPOSE 5678
 
-CMD ["n8n"]
+CMD ["node", "/usr/local/lib/node_modules/n8n/bin/n8n", "start"]
